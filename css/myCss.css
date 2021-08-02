@@ -1,0 +1,72 @@
+body {  -webkit-print-color-adjust: exact; }
+
+div#divContainerId {
+  text-align: center;
+  margin: 0 auto 0 auto;
+  width: 80%; 
+  height: auto;
+}
+
+#videoId {
+  background-color: rgba(125, 148, 161, 0.966);
+  justify-content: center;
+  max-width: 100%;
+  width: 100%;
+  z-index: 2;
+}
+
+#canvasId {
+  /*background-color: #ccc;
+  max-width: 100%;
+  width: 100%;*/
+  display: none;
+}
+
+.myButton {
+  background-color: rgba(90, 36, 179, 0.459);
+  background-repeat:no-repeat;
+  border: 2px;
+  border-radius: 2px;
+  color: white;
+  font-family: 'Roboto, Arial, sans-serif';
+  font-size: 0.8em;
+  margin: 0 0 1em 0;
+  padding: 0.5em 0.7em 0.6em 0.7em;
+  cursor: pointer;
+  overflow: hidden;
+  outline:none;
+}
+
+/*.myTransparentButton:active {
+  background-color: rgba(90, 36, 179);
+}*/
+
+.myButton:hover {
+  background-color:rgba(90, 36, 179);;
+}
+
+
+/* To hide image in landscape*/
+/*
+#landscapeMessage {
+  display: none;
+}
+
+
+@media only screen and (orientation:landscape) {
+
+  #container {
+    display: none;
+  }
+
+  #landscapeMessage {
+    display: block;
+  }
+}
+
+@media only screen and (orientation:portrait) {
+  #landscapeMessage {
+    display: none;
+  }
+}
+*/
